@@ -4,7 +4,7 @@
 
 ### Escuela de Ciencias y Sistemas
 
-<p align="center"><h2>Práctica 1</h2></p>
+## Practica 1
 
 <hr>
 <br>
@@ -35,64 +35,26 @@
 <br>
 <hr>
 
+### Crear
 
-## Nuevo proyecto
-
-### Creamos nuestro proyecto, ingresamos el nombre y si deseamos podemos modificar el ID.
+#### Creamos nuestro proyecto
 
 <div>
     <p align="center">
        <img src="images/imagen1.PNG" width="500" alt="inicio"> 
-    <p>
-</div>
-
-### Seleccionamos el proyecto que se acaba de crear.
-
-<div>
-    <p align="center">
+        <br>
+        <br>
        <img src="images/imagen2.PNG" width="500" alt="inicio"> 
     <p>
 </div>
 
-## IAM y ADMIN
-### Agregamos y seleccionamos el rol que tendran nuestros compañeros de equipo en este caso se les otorgo el acceso completo.
+## Crear
+
+#### Creamos nuestro proyecto
 
 <div>
     <p align="center">
        <img src="images/imagen3.PNG" width="500" alt="inicio"> 
-    <p>
-</div>
-
-## Compute Engine
-### Seleccionamos VM Instances.
-<div>
-    <p align="center">
-       <img src="images/imagen4.PNG" width="500" alt="inicio"> 
-    <p>
-</div>
-
-## Creamos una instancia
-
-<div>
-    <p align="center">
-       <img src="images/imagen6.PNG" width="500" alt="inicio"> 
-    <p>
-</div>
-
-### Ingresamos un nombre y seleccionamos el tipo de maquina que deseamos.
-
-<div>
-    <p align="center">
-       <img src="images/imagen7-8.PNG" width="500" alt="inicio"> 
-    <p>
-</div>
-
-### podemos elegir el sistemas operativo en este caso se utilizara Debian y seleccionamos en el apartado de Firewall el acceso por HTTP y HTTPS.
-    
-
-<div>
-    <p align="center">
-       <img src="images/imagen7y8.PNG" width="500" alt="inicio"> 
     <p>
 </div>
 
@@ -207,5 +169,72 @@
 <div>
     <p align="center">
        <img src="images/imagen16.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+## DNS
+### Para la configuración del DNS se dejó la configuración que viene por defecto que son los de Google para evitar problemas mas adelante.
+
+```
+   Opcion 3
+```
+
+<div>
+    <p align="center">
+       <img src="images/imagen17.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+## Usuarios
+### Para la creación de los usuarios debe ingresar una palabra sencilla sin números y caracteres especiales, esto es para evitar problemas al momento de que el programa cree el archivo de conexión.
+
+<div>
+    <p align="center">
+       <img src="images/imagen18.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+## Firewall
+### Lo siguiente a realizar es la configuración del Firewall, para esto nos vamos al menú de Google cloud seleccionamos la opción VPC networks, y buscamos la opción que dice Firewall.
+
+<div>
+    <p align="center">
+       <img src="images/imagen20.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+## Reglas
+### Al selecciona la opción de firewall se muestra la siguiente pantalla en donde crearemos 2 reglas de firewall, que permita el trafico de entrada y salida, en la pantalla presionamos la opción Crear Regla de Firewall o Create Firewall Rule.
+
+<div>
+    <p align="center">
+       <img src="images/imagen21.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+## Regla de Entrada
+### Para la creación de la regla de entrada agregaremos un nombre y una descripción, dejamos las demás opciones como están y nos vamos a la opción de destinos, cambiamos la configuración que tiene por la opción que dice todas las instancias de red, para permitir el trafico.
+
+<div>
+    <p align="center">
+       <img src="images/imagen22.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+## Rangos de IP
+### En la opción de rangos de IP de origen se le va a ingresar los valores 0.0.0.0/0 para que permita el ingreso a toda IP, en la opción de Protocolos y puertos específicos seleccionamos la casilla que dice udp y le asignamos el valor de 1194 y presionamos el botón de crear.
+
+<div>
+    <p align="center">
+       <img src="images/imagen23.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+## Regla de Salida
+### En esta regla lo que va a cambiar es la dirección de los datos, entonces nos ubicamos en la opción de Dirección del Trafico se seleccionamos la casilla de salida, y las memas opciones se configuraran igual que la regla anterior.
+
+<div>
+    <p align="center">
+       <img src="images/imagen24.PNG" width="500" alt="inicio"> 
     </p>
 </div>
