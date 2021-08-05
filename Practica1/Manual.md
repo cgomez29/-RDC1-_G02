@@ -35,26 +35,62 @@
 <br>
 <hr>
 
-### Crear
+## Nuevo proyecto
 
-#### Creamos nuestro proyecto
+### Creamos nuestro proyecto, ingresamos el nombre y si deseamos podemos modificar el ID.
 
 <div>
     <p align="center">
        <img src="images/imagen1.PNG" width="500" alt="inicio"> 
-        <br>
-        <br>
-       <img src="images/imagen2.PNG" width="500" alt="inicio"> 
+  <p>
+</div>
+
+### Seleccionamos el proyecto creado.
+
+<div>
+    <p align="center">
+    <img src="images/imagen2.PNG" width="500" alt="inicio"> 
     <p>
 </div>
 
-## Crear
-
-#### Creamos nuestro proyecto
+## IAM y ADMIN
+### Agregamos y seleccionamos el rol que tendran nuestros compañeros de equipo en este caso se les otorgo el acceso completo.
 
 <div>
     <p align="center">
        <img src="images/imagen3.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+## Compute Engine
+### Seleccionamos VM Instances.
+<div>
+    <p align="center">
+       <img src="images/imagen4.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+## Creamos una nueva instancia
+
+<div>
+    <p align="center">
+       <img src="images/imagen6.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Ingresamos un nombre y seleccionamos el tipo de maquina que deseamos.
+
+<div>
+    <p align="center">
+       <img src="images/imagen7-8.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### podemos elegir el sistemas operativo, en este caso se utilizara Debian y seleccionamos en el apartado de Firewall el acceso por HTTP y HTTPS.
+
+<div>
+    <p align="center">
+        <img src="images/imagen7y8.PNG" width="500" alt="inicio"> 
     <p>
 </div>
 
