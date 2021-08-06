@@ -35,6 +35,12 @@
 <br>
 <hr>
 
+## Plataforma utilizada
+### Google Cloud 
+
+## Software utlizado
+### OpenVPN
+
 ## Nuevo proyecto
 
 ### Creamos nuestro proyecto, ingresamos el nombre y si deseamos podemos modificar el ID.
