@@ -6,6 +6,13 @@
 
 ## Practica 1
 
+
+<div>
+    <p align="center">
+       <img src="images/usac.PNG" width="500" alt="inicio"> 
+  <p>
+</div>
+
 <hr>
 <br>
 <div>
@@ -36,10 +43,20 @@
 <hr>
 
 ## Plataforma utilizada
-### Google Cloud 
+
+<div>
+    <p align="center">
+       <img src="images/GoogleCloud.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
 
 ## Software utlizado
-### OpenVPN
+
+<div>
+    <p align="center">
+       <img src="images/openvpn.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
 
 ## Nuevo proyecto
 
@@ -48,7 +65,7 @@
 <div>
     <p align="center">
        <img src="images/imagen1.PNG" width="500" alt="inicio"> 
-  <p>
+    <p>
 </div>
 
 ### Seleccionamos el proyecto creado.
