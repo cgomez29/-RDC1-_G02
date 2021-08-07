@@ -297,3 +297,34 @@
        <img src="images/imagen24.PNG" width="500" alt="inicio"> 
     </p>
 </div>
+
+## Ping entre Computadores en la VPN
+Desde el computador con IP 10.8.0.5 se hace ping en la terminal hacia todos los demás computadores en la VPN, incluyendo el servidor.
+
+### 10.8.0.2
+<div>
+    <p align="center">
+       <img src="images/imagen33.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+### 10.8.0.3
+<div>
+    <p align="center">
+       <img src="images/imagen33.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+### 10.8.0.4
+<div>
+    <p align="center">
+       <img src="images/imagen33.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+### 34.125.203.174 (servidor)
+<div>
+    <p align="center">
+       <img src="images/imagen33.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
