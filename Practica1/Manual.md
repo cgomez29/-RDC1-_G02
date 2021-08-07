@@ -253,6 +253,36 @@
     </p>
 </div>
 
+### Generamos el archivo de configuración, para la máquina cliente del usuario "daniel".
+<div>
+    <p align="center">
+       <img src="images/imagen26.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+### Se ingresa el archivo de configuracion en la aplicación de OpenVPN 
+<div>
+    <p align="center">
+       <img src="images/imagen37.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+### La conexion a la VPN deberia ser exitosa.
+<div>
+    <p align="center">
+       <img src="images/imagen30.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+### Probamos la conexion realizando un ping a la máquina de "daniel - 10.8.0.4".
+<div>
+    <p align="center">
+       <img src="images/imagen29.PNG" width="500" alt="inicio"> 
+    </p>
+</div>
+
+### NOTA: Si los paquetes no son recibidos verificar que el firewal de windows este desactivado.
+
 ## Firewall
 ### Lo siguiente a realizar es la configuración del Firewall, para esto nos vamos al menú de Google cloud seleccionamos la opción VPC networks, y buscamos la opción que dice Firewall.
 
