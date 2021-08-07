@@ -9,7 +9,7 @@
 
 <div>
     <p align="center">
-       <img src="images/usac.PNG" width="500" alt="inicio"> 
+       <img src="images/usac.png" width="500" alt="inicio"> 
   <p>
 </div>
 
@@ -46,7 +46,7 @@
 
 <div>
     <p align="center">
-       <img src="images/GoogleCloud.PNG" width="500" alt="inicio"> 
+       <img src="images/GoogleCloud.png" width="500" alt="inicio"> 
     <p>
 </div>
 
@@ -54,7 +54,7 @@
 
 <div>
     <p align="center">
-       <img src="images/openvpn.PNG" width="500" alt="inicio"> 
+       <img src="images/openvpn.png" width="500" alt="inicio"> 
     <p>
 </div>
 
