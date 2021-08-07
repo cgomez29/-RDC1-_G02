@@ -281,7 +281,7 @@
     </p>
 </div>
 
-### NOTA: Si los paquetes no son recibidos verificar que el firewal de windows este desactivado.
+### NOTA: Si los paquetes no son recibidos verificar que el firewall de windows este desactivado.
 
 ## Firewall
 ### Lo siguiente a realizar es la configuración del Firewall, para esto nos vamos al menú de Google cloud seleccionamos la opción VPC networks, y buscamos la opción que dice Firewall.
