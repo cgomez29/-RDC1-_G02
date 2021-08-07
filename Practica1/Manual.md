@@ -341,20 +341,20 @@ Desde el computador con IP 10.8.0.5 se hace ping en la terminal hacia todos los 
 ### 10.8.0.3
 <div>
     <p align="center">
-       <img src="images/imagen33.PNG" width="500" alt="inicio"> 
+       <img src="images/imagen34.PNG" width="500" alt="inicio"> 
     </p>
 </div>
 
 ### 10.8.0.4
 <div>
     <p align="center">
-       <img src="images/imagen33.PNG" width="500" alt="inicio"> 
+       <img src="images/imagen35.PNG" width="500" alt="inicio"> 
     </p>
 </div>
 
 ### 34.125.203.174 (servidor)
 <div>
     <p align="center">
-       <img src="images/imagen33.PNG" width="500" alt="inicio"> 
+       <img src="images/imagen36.PNG" width="500" alt="inicio"> 
     </p>
 </div>
