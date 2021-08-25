@@ -41,3 +41,11 @@
 </div>
 <br>
 <hr>
+
+# Configuración de máquina virtual 
+
+#  Configuración
+## Topología 1
+## Topologia 2
+
+# Configuracíon VPCs
