@@ -44,8 +44,55 @@
 
 # Configuración de máquina virtual 
 
+<div>
+    <p align="center">
+    <img src="images/img10.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+<div>
+    <p align="center">
+    <img src="images/img11.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+<div>
+    <p align="center">
+    <img src="images/img15.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+<div>
+    <p align="center">
+    <img src="images/img12.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+<div>
+    <p align="center">
+    <img src="images/img13.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+<div>
+    <p align="center">
+    <img src="images/img14.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+
 #  Configuración
 ## Topología 1
 ## Topologia 2
 
 # Configuracíon VPCs
+
+# Visualización de la página web desde el host vrtual Cliente
+
+## Cliente informatica 2
+
+<div>
+    <p align="center">
+    <img src="images/img_IServer.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
