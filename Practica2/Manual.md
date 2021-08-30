@@ -158,7 +158,17 @@
 - Y listo la máquina se encontrará disponible en: Browse end device (Dispositivos).
 
 
-#  Configuración
+#  Configuración de las topologías 
+## Topologia 1
+- Las conexiones entre las Nubes y los switchs son enlaces truncales 
+
+<div>
+    <p align="center">
+    <img src="images/img24.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+
 ## Topología 1
 ## Topologia 2
 
