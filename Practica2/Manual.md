@@ -229,6 +229,7 @@ Esta configuración se debe hacer desde de la maquina virtual con sistema operat
     <img src="images/img27-linux-mac.PNG" width="500" alt="img27"> 
     <p>
 </div>
+
 # Instalación y Configuración  de los servidores Web
 ### Lo primero que hay que hacer es actualisar el sistema operativo Linux con el comando.
 ```
