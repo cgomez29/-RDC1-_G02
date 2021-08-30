@@ -206,6 +206,12 @@ sudo apt install apache2
 ```
 ### En el navegador Web se escribe localhost y desplegara una la siguiente pagína como prueba de que se instalo apache correctamente.
 
+<div>
+    <p align="center">
+    <img src="images/apache.JPG" width="500" alt="inicio"> 
+    <p>
+</div>
+
 ### Despues de intaloado apache no vamos a la carpera /var/www/html y ahi encontraremos un archivo html con nombre index.html que es la que trae por defecto apache, lo que vamos  a hacer es remplazar ese archivo con el que vamos a desplegar, este archivo tiene que tener el mismo nombre del archi eliminado para que se despliegue de manera correcta.
 ```
 comando para eliminar
