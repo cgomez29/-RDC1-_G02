@@ -284,15 +284,96 @@ para copiar un archivo ya listo para desplegar, debe de estar en la carpeta dond
     <p>
 </div>
 
-## Ping entre Maquinas Virtuales
-### Servidor de Informatica con los clientes que son las ip 192.168.12.15 y ip 192.168.12.30 
+## Ping entre computadores
+## Topología 1A
+### Cliente de ventas (192.168.22.15) con cliente de ventas virtual
+<div>
+    <p align="center">
+    <img src="images/img3.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Cliente de ventas (192.168.22.15) con servidor de ventas
+<div>
+    <p align="center">
+    <img src="images/img2.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Cliente virtual de informática (192.168.12.30) con cliente de informática
+<div>
+    <p align="center">
+    <img src="images/img1.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Cliente virtual de informática (192.168.12.30) con servidor de informática
+<div>
+    <p align="center">
+    <img src="images/img4.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+## Topología 1B
+### Cliente de contabilidad (192.168.32.15) con cliente de contabilidad virtual
+<div>
+    <p align="center">
+    <img src="images/img9.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Cliente de contabilidad (192.168.32.15) con servidor de contabilidad
+<div>
+    <p align="center">
+    <img src="images/img6.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Cliente virtual de ventas (192.168.22.30) con cliente de ventas
+<div>
+    <p align="center">
+    <img src="images/img7.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+## Topología 1C
+### Cliente de informática (192.168.12.15) con cliente de informática virtual
+<div>
+    <p align="center">
+    <img src="images/img18-Informatica_1C-Informatica_2A.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Cliente de informática (192.168.12.15) con servidor de informática
+<div>
+    <p align="center">
+    <img src="images/img19-Informatica_1C-Server.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Cliente virtual de contabilidad (192.168.32.30) con cliente de contabilidad
+<div>
+    <p align="center">
+    <img src="images/img16-contabilidad_2C-Contabildad_1B.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Cliente virtual de contabilidad (192.168.32.30) con servidor de contabilidad
+<div>
+    <p align="center">
+    <img src="images/img17-contabilidad_2C-Server.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+## Topología 2
+#### Servidor de Informatica con los clientes que son las ip 192.168.12.15 y ip 192.168.12.30 
 <div>
     <p align="center">
     <img src="images/informatica.JPG" width="500" alt="inicio"> 
     <p>
 </div>
 
-### Servidor de Ventas con los clientes que son las ip 192.168.22.15 y ip 192.168.22.30
+#### Servidor de Ventas con los clientes que son las ip 192.168.22.15 y ip 192.168.22.30
 <div>
     <p align="center">
     <img src="images/Ventas.JPG" width="500" alt="inicio"> 
