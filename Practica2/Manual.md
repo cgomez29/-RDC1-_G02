@@ -193,7 +193,42 @@
     <p>
 </div>
 
-# Configuracíon VPCs
+## Configuracíon VPCS
+
+Para la configuración de las Virtual PC de GNS3, se tiene que ingresar a la consola de esta. Para encontrar la terminal le tiene que dar click derecho sobre la VPCS e ir a apartado de console. Ya ahí se de ingresar el comando para poder configurar la VPCS.
+
+```console
+    PC1> ip 192.168.12.15 255.255.255.0 192.168.12.1
+    PC1> save
+```
+
+<div>
+    <p align="center">
+    <img src="images/img25-terminal.PNG" width="500" alt="img21"> 
+    <p>
+</div>
+
+## Configuracíon de la maquina virtual
+
+Esta configuración se debe hacer desde de la maquina virtual con sistema operativo Linux para este ejemplo se utilizó Ubuntu, se configuro la dirección IP, mascara, MAC y el Gateway. Esto se hace con el fin de que exista comunicación con las demás maquinas dentro de la misma red.
+
+```console
+    IP:         192.168.32.30
+    Mascara:    255.255.255.0
+    Gateway:    192.168.32.1
+```
+
+<div>
+    <p align="center">
+    <img src="images/img26-linux.PNG" width="500" alt="img26"> 
+    <p>
+</div>
+
+<div>
+    <p align="center">
+    <img src="images/img27-linux-mac.PNG" width="500" alt="img27"> 
+    <p>
+</div>
 # Instalación y Configuración  de los servidores Web
 ### Lo primero que hay que hacer es actualisar el sistema operativo Linux con el comando.
 ```
@@ -237,6 +272,14 @@ para copiar un archivo ya listo para desplegar, debe de estar en la carpeta dond
 <div>
     <p align="center">
     <img src="images/img_IServer.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+## Cliente contabilidad 2
+
+<div>
+    <p align="center">
+    <img src="images/img20-conta2C-page.PNG" width="500" alt="inicio"> 
     <p>
 </div>
 
