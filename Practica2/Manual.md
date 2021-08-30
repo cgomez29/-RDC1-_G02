@@ -171,8 +171,58 @@
 
 ## Topología 1
 ## Topologia 2
+### Se cinfiguro las VLAN del switch para cada uno de los servidores la 10 para informatica en el puerto 0, la 20 para el area de Ventas en el puerto 1 y la 30 para el area de Contabilidad.
+<div>
+    <p align="center">
+    <img src="images/topologia2-sw.JPG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Se configuro una conexion UDP para tener conexion con la topologia 1
+
+<div>
+    <p align="center">
+    <img src="images/topologia2-udp.JPG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Topologia 2 Completa
+<div>
+    <p align="center">
+    <img src="images/Tipologia2.JPG" width="500" alt="inicio"> 
+    <p>
+</div>
 
 # Configuracíon VPCs
+# Instalación y Configuración  de los servidores Web
+### Lo primero que hay que hacer es actualisar el sistema operativo Linux con el comando.
+```
+sudo apt update
+```
+
+### Despues de Actualizar el sistema Linux se intala el Servidor Web Apache con el comando.
+```
+sudo apt install apache2
+```
+### En el navegador Web se escribe localhost y desplegara una la siguiente pagína como prueba de que se instalo apache correctamente.
+
+### Despues de intaloado apache no vamos a la carpera /var/www/html y ahi encontraremos un archivo html con nombre index.html que es la que trae por defecto apache, lo que vamos  a hacer es remplazar ese archivo con el que vamos a desplegar, este archivo tiene que tener el mismo nombre del archi eliminado para que se despliegue de manera correcta.
+```
+comando para eliminar
+    sudo rm nombreArchivo
+para crear un archivo
+    sudo gedit index.html
+para copiar un archivo ya listo para desplegar, debe de estar en la carpeta donde se encuentra el archivo a copiar
+    cp nombreArchivo /direccion/destino
+```
+
+### Refrescamos el navegador de antes y veremos nuestra paguina desplegada
+
+ <div>
+    <p align="center">
+    <img src="images/img_IServer.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
 
 # Visualización de la página web desde el host vrtual Cliente
 
@@ -181,5 +231,27 @@
 <div>
     <p align="center">
     <img src="images/img_IServer.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+## Ping entre Maquinas Virtuales
+### Servidor de Informatica con los clientes que son las ip 192.168.12.15 y ip 192.168.12.30 
+<div>
+    <p align="center">
+    <img src="images/informatica.JPG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Servidor de Ventas con los clientes que son las ip 192.168.22.15 y ip 192.168.22.30
+<div>
+    <p align="center">
+    <img src="images/Ventas.JPG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Servidor de Contabilidad con los clientes que son las ip 192.168.32.15 y ip 192.168.32.30
+<div>
+    <p align="center">
+    <img src="images/Contabilidad.JPG" width="500" alt="inicio"> 
     <p>
 </div>
