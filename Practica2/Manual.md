@@ -169,9 +169,8 @@
 </div>
 
 
-## Topología 1
 ## Topologia 2
-### Se cinfiguro las VLAN del switch para cada uno de los servidores la 10 para informatica en el puerto 0, la 20 para el area de Ventas en el puerto 1 y la 30 para el area de Contabilidad.
+### Se configuro las VLAN del switch para cada uno de los servidores la 10 para informatica en el puerto 0, la 20 para el area de Ventas en el puerto 1 y la 30 para el area de Contabilidad.
 <div>
     <p align="center">
     <img src="images/topologia2-sw.JPG" width="500" alt="inicio"> 
