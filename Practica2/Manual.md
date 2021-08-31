@@ -102,8 +102,6 @@
     <p>
 </div>
 
-
-
 ## En preferencias seleccionamos nuestro virtualizador en este caso se utilizo VirtualBox 
 
 - Seleccionamos Enable the GNS3 VM 
@@ -168,6 +166,27 @@
     <p>
 </div>
 
+## Topología 1B
+- Se conecta a la topología 1 mediante un switch y una nube
+<div>
+    <p align="center">
+    <img src="images/img28.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+- Configuración del switch:
+<div>
+    <p align="center">
+    <img src="images/img29.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+- Configuración de la nube:
+<div>
+    <p align="center">
+    <img src="images/img30.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
 
 ## Topologia 2
 ### Se configuro las VLAN del switch para cada uno de los servidores la 10 para informatica en el puerto 0, la 20 para el area de Ventas en el puerto 1 y la 30 para el area de Contabilidad.
