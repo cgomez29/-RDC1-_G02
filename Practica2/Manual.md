@@ -284,6 +284,14 @@ para copiar un archivo ya listo para desplegar, debe de estar en la carpeta dond
     <p>
 </div>
 
+## Cliente ventas 2
+
+<div>
+    <p align="center">
+    <img src="images/img8.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
 ## Ping entre computadores
 ## Topología 1A
 ### Cliente de ventas (192.168.22.15) con cliente de ventas virtual
