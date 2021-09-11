@@ -1,0 +1,307 @@
+Sep 10 20:51:00.816 VTTY: Console port: waiting connection on tcp port 5007 for protocol IPv6 (FD 11)
+Sep 10 20:51:00.817 VTTY: Console port: waiting connection on tcp port 5007 for protocol IPv4 (FD 12)
+Sep 10 20:51:00.998 slot0: C/H/S settings = 16/4/32
+Sep 10 20:51:01.080 slot1: C/H/S settings = 0/4/32
+Sep 10 20:51:03.684 C3725_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x60bf8ba0,JIT on)
+Sep 10 20:51:03.684 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Sep 10 20:51:03.825 ROM: Microcode has started.
+Sep 10 20:51:04.085 ROM: trying to read bootvar 'WARM_REBOOT'
+Sep 10 20:51:04.328 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x22, pc=0x60270bf4 (size=2)
+Sep 10 20:51:04.328 ROM: unhandled syscall 0x00000047 at pc=0x60bf2ab4 (a1=0x80007df4,a2=0x6392acb4,a3=0x0000011c)
+Sep 10 20:51:04.653 ROM: trying to read bootvar 'RANDOM_NUM'
+Sep 10 20:51:04.756 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c7e4: bus=0,device=0,function=0,reg=0x00
+Sep 10 20:51:04.756 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c7e8: bus=0,device=0,function=0,reg=0x00
+Sep 10 20:51:04.756 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c598: bus=0,device=0,function=0,reg=0x08
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x10
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x10
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x90
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x90
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x14
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x14
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x94
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x94
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x20
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x20
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0xa0
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0xa0
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x04
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x04
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x84
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x84
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x0c
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x0c
+Sep 10 20:51:04.756 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x8c
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x8c
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x10
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x10
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x90
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x90
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x14
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x14
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x94
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x94
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x10).
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x10).
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x90).
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x90).
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x14).
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x14).
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x94).
+Sep 10 20:51:04.757 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x94).
+Sep 10 20:51:04.757 CPU0: IO_FPGA: write to unknown addr 0x32, value=0x40, pc=0x60279b44 (size=2)
+Sep 10 20:51:04.758 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60292370 (size=2)
+Sep 10 20:51:04.758 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6029239c (size=2)
+Sep 10 20:51:04.758 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x0, pc=0x602923b0 (size=2)
+Sep 10 20:51:04.762 CPU0: MTS: read  access to undefined address 0x3c080000 at pc=0x602923e4 (size=1)
+Sep 10 20:51:04.775 ROM: unhandled syscall 0x0000003e at pc=0x60bf2ab4 (a1=0x80007de4,a2=0x6392ac90,a3=0x000000f8)
+Sep 10 20:51:04.775 ROM: unhandled syscall 0x00000047 at pc=0x60bf2ab4 (a1=0x80007dec,a2=0x6392acb4,a3=0x0000011c)
+Sep 10 20:51:13.190 ROM: trying to read bootvar 'BOOT'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'CONFIG_FILE'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'BOOTLDR'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'RSHELF'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'DSHELF'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'DSHELFINFO'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'RESET_COUNTER'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'CHRG_ID'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'SLOTCACHE'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'OVERTEMP'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'DIAG'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'DIAMETER_ORIGIN_ID'
+Sep 10 20:51:13.191 ROM: trying to read bootvar 'WARM_REBOOT'
+Sep 10 20:51:13.372 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6090a8d4 (size=2)
+Sep 10 20:51:13.372 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x6090a4c4 (size=1)
+Sep 10 20:51:13.372 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x6090a54c (size=1)
+Sep 10 20:51:13.386 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x6090a558, value=0x00000000 (size=1)
+Sep 10 20:51:13.386 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x6090a564 (size=1)
+Sep 10 20:51:13.386 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x6090a574, value=0x00000080 (size=1)
+Sep 10 20:51:13.386 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c35c (size=1)
+Sep 10 20:51:13.386 CPU0: MTS: write access to undefined address 0x3c000002 at pc=0x6090c368, value=0x00000080 (size=1)
+Sep 10 20:51:13.386 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c36c (size=1)
+Sep 10 20:51:13.460 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 20:51:13.530 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 20:51:13.622 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 20:51:13.770 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 20:51:13.870 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 20:51:13.948 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 20:51:13.948 CPU0: MTS: write access to undefined address 0x3c080007 at pc=0x6090a660, value=0x00000002 (size=1)
+Sep 10 20:51:13.948 CPU0: MTS: write access to undefined address 0x3c080008 at pc=0x6090a668, value=0x00000002 (size=1)
+Sep 10 20:51:13.948 CPU0: MTS: write access to undefined address 0x3c080009 at pc=0x6090a670, value=0x00000002 (size=1)
+Sep 10 20:51:13.948 CPU0: MTS: write access to undefined address 0x3c08000a at pc=0x6090a674, value=0x00000002 (size=1)
+Sep 10 20:51:13.948 CPU0: MTS: write access to undefined address 0x3c08000b at pc=0x6090a678, value=0x00000002 (size=1)
+Sep 10 20:51:13.948 CPU0: MTS: write access to undefined address 0x3c08000c at pc=0x6090a67c, value=0x00000002 (size=1)
+Sep 10 20:51:13.949 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x6090b588 (size=1)
+Sep 10 20:51:14.169 CPU0: JIT: partial JIT flush (count=766)
+Sep 10 20:51:14.812 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x00
+Sep 10 20:51:14.812 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x00
+Sep 10 20:51:14.812 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x00
+Sep 10 20:51:14.812 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x00
+Sep 10 20:51:14.812 CPU0: PCI: write request (data=0x4d000000) for device 'NM-16ESW(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x10
+Sep 10 20:51:14.812 NM-16ESW(1): BCM5600 registers are mapped at 0x4d000000
+Sep 10 20:51:14.812 CPU0: PCI: write request (data=0x4d000000) for device 'NM-16ESW(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x10
+Sep 10 20:51:14.812 NM-16ESW(1): BCM5600 registers are mapped at 0x4d000000
+Sep 10 20:51:14.812 CPU0: PCI: write request (data=0x00000046) for device 'NM-16ESW(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x04
+Sep 10 20:51:14.812 CPU0: PCI: write request (data=0x00000046) for device 'NM-16ESW(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x04
+Sep 10 20:51:14.812 CPU0: PCI: write request (data=0x00004000) for device 'NM-16ESW(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x0c
+Sep 10 20:51:14.812 CPU0: PCI: write request (data=0x00004000) for device 'NM-16ESW(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x0c
+Sep 10 20:51:14.812 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x40
+Sep 10 20:51:14.812 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x40
+Sep 10 20:51:14.812 CPU0: PCI: write request (data=0x00000000) for device 'NM-16ESW(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x40
+Sep 10 20:51:14.812 CPU0: PCI: write request (data=0x00000000) for device 'NM-16ESW(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x40
+Sep 10 20:51:14.812 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x08
+Sep 10 20:51:14.812 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x08
+Sep 10 20:51:14.828 NM-16ESW(1): unknown opcode 0x00000016 (cmd=0x58614000)
+Sep 10 20:51:15.230 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x33, pc=0x6026e0e0 (size=2)
+Sep 10 20:51:15.629 CPU0: JIT: flushing data structures (compiled pages=909)
+Sep 10 20:51:17.558 CPU0: JIT: partial JIT flush (count=744)
+Sep 10 20:51:18.041 CPU0: JIT: flushing data structures (compiled pages=962)
+Sep 10 20:51:19.478 CPU0: JIT: partial JIT flush (count=693)
+Sep 10 20:51:20.352 ROM: trying to read bootvar 'PMDEBUG'
+Sep 10 20:51:20.364 ROM: trying to read bootvar 'MONDEBUG'
+Sep 10 20:51:21.180 CPU0: JIT: flushing data structures (compiled pages=1011)
+Sep 10 20:51:22.023 ROM: unhandled syscall 0x0000001a at pc=0x60bf2ab4 (a1=0x6626cb14,a2=0x6392ac00,a3=0x00000068)
+Sep 10 20:51:22.023 ROM: unhandled syscall 0x00000009 at pc=0x60bf2ab4 (a1=0x6626cb14,a2=0x6392abbc,a3=0x00000024)
+Sep 10 20:51:22.239 CPU0: JIT: partial JIT flush (count=770)
+Sep 10 20:51:23.441 CPU0: JIT: flushing data structures (compiled pages=1059)
+Sep 10 20:51:24.479 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6090a894 (size=2)
+Sep 10 20:51:24.479 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x1, pc=0x6090a89c (size=2)
+Sep 10 20:51:24.506 CPU0: JIT: partial JIT flush (count=719)
+Sep 10 20:51:24.826 ROM: trying to read bootvar 'RANDOM_NUM'
+Sep 10 20:51:24.837 ROM: trying to read bootvar 'ROM_PERSISTENT_UTC'
+Sep 10 20:51:25.412 CPU0: JIT: flushing data structures (compiled pages=1154)
+Sep 10 20:51:25.772 ROM: trying to set bootvar 'BSI=0'
+Sep 10 20:51:25.789 ROM: trying to read bootvar 'RET_2_RCALTS'
+Sep 10 20:51:25.789 ROM: trying to set bootvar 'RET_2_RCALTS='
+Sep 10 20:51:27.966 CPU0: JIT: partial JIT flush (count=719)
+Sep 10 20:54:51.031 ROM: trying to set bootvar 'RANDOM_NUM=1395212154'
+Sep 10 21:02:11.433 C3725_STOP: stopping simulation.
+Sep 10 21:02:11.433 CPU0: CPU_STATE: Halting CPU (old state=0)...
+Sep 10 21:02:11.532 VM: shutdown procedure engaged.
+Sep 10 21:02:11.532 VM_OBJECT: Shutdown of object "slot1"
+Sep 10 21:02:11.532 DEVICE: Removal of device slot1, fd=-1, host_addr=0x0, flags=2
+Sep 10 21:02:11.714 VM_OBJECT: Shutdown of object "slot0"
+Sep 10 21:02:11.714 DEVICE: Removal of device slot0, fd=-1, host_addr=0x0, flags=2
+Sep 10 21:02:11.714 VM_OBJECT: Shutdown of object "ns16552"
+Sep 10 21:02:11.714 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Sep 10 21:02:11.714 VM_OBJECT: Shutdown of object "mem_bswap"
+Sep 10 21:02:11.714 DEVICE: Removal of device mem_bswap, fd=-1, host_addr=0x0, flags=0
+Sep 10 21:02:11.714 VM_OBJECT: Shutdown of object "rom"
+Sep 10 21:02:11.714 DEVICE: Removal of device rom, fd=15, host_addr=0xf2910000, flags=1
+Sep 10 21:02:11.714 MMAP: unmapping of device 'rom', fd=15, host_addr=0xf2910000, len=0x200000
+Sep 10 21:02:11.714 VM_OBJECT: Shutdown of object "ram"
+Sep 10 21:02:11.714 DEVICE: Removal of device ram, fd=14, host_addr=0xf2b10000, flags=34
+Sep 10 21:02:11.714 MMAP: unmapping of device 'ram', fd=14, host_addr=0xf2b10000, len=0x8000000
+Sep 10 21:02:11.779 VM_OBJECT: Shutdown of object "gt96100"
+Sep 10 21:02:11.779 DEVICE: Removal of device gt96100, fd=-1, host_addr=0x0, flags=0
+Sep 10 21:02:11.779 VM_OBJECT: Shutdown of object "io_fpga"
+Sep 10 21:02:11.779 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Sep 10 21:02:11.779 VM_OBJECT: Shutdown of object "ssa"
+Sep 10 21:02:11.779 DEVICE: Removal of device ssa, fd=13, host_addr=0xfab10000, flags=2
+Sep 10 21:02:11.779 MMAP: unmapping of device 'ssa', fd=13, host_addr=0xfab10000, len=0x7000
+Sep 10 21:02:11.779 VM_OBJECT: Shutdown of object "remote_ctrl"
+Sep 10 21:02:11.779 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Sep 10 21:02:11.779 VM: removing PCI busses.
+Sep 10 21:02:11.779 VM: deleting VTTY.
+Sep 10 21:02:11.779 VTTY: Console port: closing FD 11
+Sep 10 21:02:11.780 VTTY: Console port: closing FD 12
+Sep 10 21:02:11.780 VM: deleting system CPUs.
+Sep 10 21:02:11.780 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Sep 10 21:02:11.880 VM: shutdown procedure completed.
+Sep 10 21:02:14.747 VTTY: Console port: waiting connection on tcp port 5007 for protocol IPv6 (FD 11)
+Sep 10 21:02:14.747 VTTY: Console port: waiting connection on tcp port 5007 for protocol IPv4 (FD 12)
+Sep 10 21:02:14.768 slot0: C/H/S settings = 16/4/32
+Sep 10 21:02:14.768 slot1: C/H/S settings = 0/4/32
+Sep 10 21:02:15.119 C3725_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x60bf8ba0,JIT on)
+Sep 10 21:02:15.119 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Sep 10 21:02:15.166 ROM: Microcode has started.
+Sep 10 21:02:15.172 ROM: trying to read bootvar 'WARM_REBOOT'
+Sep 10 21:02:15.280 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x22, pc=0x60270bf4 (size=2)
+Sep 10 21:02:15.280 ROM: unhandled syscall 0x00000047 at pc=0x60bf2ab4 (a1=0x80007df4,a2=0x6392acb4,a3=0x0000011c)
+Sep 10 21:02:15.718 ROM: trying to read bootvar 'RANDOM_NUM'
+Sep 10 21:02:15.742 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c7e4: bus=0,device=0,function=0,reg=0x00
+Sep 10 21:02:15.742 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c7e8: bus=0,device=0,function=0,reg=0x00
+Sep 10 21:02:15.742 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c598: bus=0,device=0,function=0,reg=0x08
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x10
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x10
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x90
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x90
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x14
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x14
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x94
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x94
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x20
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x20
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0xa0
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0xa0
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x04
+Sep 10 21:02:15.742 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x04
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x84
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x84
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x0c
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x0c
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x8c
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x8c
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x10
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x10
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x90
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x90
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x14
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x14
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x94
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x94
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x10).
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x10).
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x90).
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x90).
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x14).
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x14).
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x94).
+Sep 10 21:02:15.743 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x94).
+Sep 10 21:02:15.743 CPU0: IO_FPGA: write to unknown addr 0x32, value=0x40, pc=0x60279b44 (size=2)
+Sep 10 21:02:15.744 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60292370 (size=2)
+Sep 10 21:02:15.744 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6029239c (size=2)
+Sep 10 21:02:15.744 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x0, pc=0x602923b0 (size=2)
+Sep 10 21:02:15.744 CPU0: MTS: read  access to undefined address 0x3c080000 at pc=0x602923e4 (size=1)
+Sep 10 21:02:15.747 ROM: unhandled syscall 0x0000003e at pc=0x60bf2ab4 (a1=0x80007de4,a2=0x6392ac90,a3=0x000000f8)
+Sep 10 21:02:15.747 ROM: unhandled syscall 0x00000047 at pc=0x60bf2ab4 (a1=0x80007dec,a2=0x6392acb4,a3=0x0000011c)
+Sep 10 21:02:17.043 ROM: trying to read bootvar 'BOOT'
+Sep 10 21:02:17.043 ROM: trying to read bootvar 'CONFIG_FILE'
+Sep 10 21:02:17.043 ROM: trying to read bootvar 'BOOTLDR'
+Sep 10 21:02:17.043 ROM: trying to read bootvar 'RSHELF'
+Sep 10 21:02:17.043 ROM: trying to read bootvar 'DSHELF'
+Sep 10 21:02:17.044 ROM: trying to read bootvar 'DSHELFINFO'
+Sep 10 21:02:17.044 ROM: trying to read bootvar 'RESET_COUNTER'
+Sep 10 21:02:17.044 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Sep 10 21:02:17.044 ROM: trying to read bootvar 'CHRG_ID'
+Sep 10 21:02:17.044 ROM: trying to read bootvar 'SLOTCACHE'
+Sep 10 21:02:17.044 ROM: trying to read bootvar 'OVERTEMP'
+Sep 10 21:02:17.044 ROM: trying to read bootvar 'DIAG'
+Sep 10 21:02:17.044 ROM: trying to read bootvar 'DIAMETER_ORIGIN_ID'
+Sep 10 21:02:17.044 ROM: trying to read bootvar 'WARM_REBOOT'
+Sep 10 21:02:17.261 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6090a8d4 (size=2)
+Sep 10 21:02:17.261 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x6090a4c4 (size=1)
+Sep 10 21:02:17.261 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x6090a54c (size=1)
+Sep 10 21:02:17.261 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x6090a558, value=0x00000000 (size=1)
+Sep 10 21:02:17.261 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x6090a564 (size=1)
+Sep 10 21:02:17.261 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x6090a574, value=0x00000080 (size=1)
+Sep 10 21:02:17.261 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c35c (size=1)
+Sep 10 21:02:17.262 CPU0: MTS: write access to undefined address 0x3c000002 at pc=0x6090c368, value=0x00000080 (size=1)
+Sep 10 21:02:17.262 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c36c (size=1)
+Sep 10 21:02:17.365 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 21:02:17.492 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 21:02:17.580 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 21:02:17.664 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 21:02:17.738 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 21:02:17.825 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Sep 10 21:02:17.828 CPU0: MTS: write access to undefined address 0x3c080007 at pc=0x6090a660, value=0x00000002 (size=1)
+Sep 10 21:02:17.828 CPU0: MTS: write access to undefined address 0x3c080008 at pc=0x6090a668, value=0x00000002 (size=1)
+Sep 10 21:02:17.828 CPU0: MTS: write access to undefined address 0x3c080009 at pc=0x6090a670, value=0x00000002 (size=1)
+Sep 10 21:02:17.828 CPU0: MTS: write access to undefined address 0x3c08000a at pc=0x6090a674, value=0x00000002 (size=1)
+Sep 10 21:02:17.828 CPU0: MTS: write access to undefined address 0x3c08000b at pc=0x6090a678, value=0x00000002 (size=1)
+Sep 10 21:02:17.828 CPU0: MTS: write access to undefined address 0x3c08000c at pc=0x6090a67c, value=0x00000002 (size=1)
+Sep 10 21:02:17.829 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x6090b588 (size=1)
+Sep 10 21:02:17.941 CPU0: JIT: partial JIT flush (count=767)
+Sep 10 21:02:18.412 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x00
+Sep 10 21:02:18.412 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x00
+Sep 10 21:02:18.413 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x00
+Sep 10 21:02:18.413 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x00
+Sep 10 21:02:18.413 CPU0: PCI: write request (data=0x4d000000) for device 'NM-16ESW(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x10
+Sep 10 21:02:18.413 NM-16ESW(1): BCM5600 registers are mapped at 0x4d000000
+Sep 10 21:02:18.413 CPU0: PCI: write request (data=0x4d000000) for device 'NM-16ESW(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x10
+Sep 10 21:02:18.413 NM-16ESW(1): BCM5600 registers are mapped at 0x4d000000
+Sep 10 21:02:18.413 CPU0: PCI: write request (data=0x00000046) for device 'NM-16ESW(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x04
+Sep 10 21:02:18.413 CPU0: PCI: write request (data=0x00000046) for device 'NM-16ESW(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x04
+Sep 10 21:02:18.413 CPU0: PCI: write request (data=0x00004000) for device 'NM-16ESW(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x0c
+Sep 10 21:02:18.413 CPU0: PCI: write request (data=0x00004000) for device 'NM-16ESW(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x0c
+Sep 10 21:02:18.413 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x40
+Sep 10 21:02:18.413 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x40
+Sep 10 21:02:18.413 CPU0: PCI: write request (data=0x00000000) for device 'NM-16ESW(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x40
+Sep 10 21:02:18.413 CPU0: PCI: write request (data=0x00000000) for device 'NM-16ESW(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x40
+Sep 10 21:02:18.413 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x08
+Sep 10 21:02:18.413 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x08
+Sep 10 21:02:18.426 NM-16ESW(1): unknown opcode 0x00000016 (cmd=0x58614000)
+Sep 10 21:02:18.644 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x33, pc=0x6026e0e0 (size=2)
+Sep 10 21:02:18.932 CPU0: JIT: flushing data structures (compiled pages=909)
+Sep 10 21:02:19.798 CPU0: JIT: partial JIT flush (count=744)
+Sep 10 21:02:20.220 CPU0: JIT: flushing data structures (compiled pages=962)
+Sep 10 21:02:20.983 CPU0: JIT: partial JIT flush (count=694)
+Sep 10 21:02:21.468 ROM: trying to read bootvar 'PMDEBUG'
+Sep 10 21:02:21.484 ROM: trying to read bootvar 'MONDEBUG'
+Sep 10 21:02:22.146 CPU0: JIT: flushing data structures (compiled pages=1012)
+Sep 10 21:02:22.711 ROM: unhandled syscall 0x0000001a at pc=0x60bf2ab4 (a1=0x6626cb14,a2=0x6392ac00,a3=0x00000068)
+Sep 10 21:02:22.711 ROM: unhandled syscall 0x00000009 at pc=0x60bf2ab4 (a1=0x6626cb14,a2=0x6392abbc,a3=0x00000024)
+Sep 10 21:02:22.832 CPU0: JIT: partial JIT flush (count=770)
+Sep 10 21:02:23.471 CPU0: JIT: flushing data structures (compiled pages=1051)
+Sep 10 21:02:24.058 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6090a894 (size=2)
+Sep 10 21:02:24.058 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x1, pc=0x6090a89c (size=2)
+Sep 10 21:02:24.087 CPU0: JIT: partial JIT flush (count=721)
+Sep 10 21:02:24.212 ROM: trying to read bootvar 'ROM_PERSISTENT_UTC'
+Sep 10 21:02:24.810 CPU0: JIT: flushing data structures (compiled pages=1116)
+Sep 10 21:02:24.941 ROM: trying to set bootvar 'BSI=0'
+Sep 10 21:02:24.961 ROM: trying to read bootvar 'RET_2_RCALTS'
+Sep 10 21:02:24.961 ROM: trying to set bootvar 'RET_2_RCALTS='
+Sep 10 21:02:25.149 ROM: trying to read bootvar 'RANDOM_NUM'
+Sep 10 21:02:50.755 CPU0: JIT: partial JIT flush (count=645)
+Sep 10 21:03:05.013 VTTY: Console port is now connected (accept_fd=11,conn_fd=18)
+Sep 10 21:03:10.797 VTTY: Console port is now connected (accept_fd=11,conn_fd=19)
+Sep 10 21:03:20.558 ROM: trying to set bootvar 'RANDOM_NUM=1345623989'
