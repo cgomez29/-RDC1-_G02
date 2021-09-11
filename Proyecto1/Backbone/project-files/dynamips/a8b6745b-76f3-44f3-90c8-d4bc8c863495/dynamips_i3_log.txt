@@ -1,0 +1,79 @@
+Sep 09 21:11:39.739 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 09 21:11:39.741 HYPERVISOR: Started on IP = localhost, TCP port = 59652.
+Sep 09 21:11:40.232 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 09 21:11:40.232 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\pablo\GNS3\projects\p3\project-files\dynamips 
+Sep 09 21:11:40.232 GENERAL: working_dir=C:\Users\pablo\GNS3\projects\p3\project-files\dynamips
+Sep 09 21:11:40.233 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\pablo\GNS3\projects\p3\project-files\dynamips\5bc617c8-47cd-48c0-921b-034c7ef21e88 
+Sep 09 21:11:40.233 GENERAL: working_dir=C:\Users\pablo\GNS3\projects\p3\project-files\dynamips\5bc617c8-47cd-48c0-921b-034c7ef21e88
+Sep 09 21:11:40.712 HYPERVISOR: exec_cmd: vm create ESW5 4 c3725 
+Sep 09 21:11:40.713 VM: VM ESW5 created.
+Sep 09 21:11:40.714 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW5 5007 
+Sep 09 21:11:40.714 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW5 
+Sep 09 21:11:40.715 HYPERVISOR: exec_cmd: vm set_disk0 ESW5 1 
+Sep 09 21:11:40.715 HYPERVISOR: exec_cmd: vm set_exec_area ESW5 64 
+Sep 09 21:11:40.716 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 21:11:40.716 HYPERVISOR: exec_cmd: vm set_idle_pc ESW5 0x60bf8ba0 
+Sep 09 21:11:40.717 HYPERVISOR: exec_cmd: vm set_ios ESW5 C:/Users/pablo/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Sep 09 21:11:40.718 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW5 c204.2d9c.0000 
+Sep 09 21:11:40.718 HYPERVISOR: exec_cmd: vm set_nvram ESW5 256 
+Sep 09 21:11:40.719 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 21:11:40.719 HYPERVISOR: exec_cmd: vm slot_add_binding ESW5 1 0 NM-16ESW 
+Sep 09 21:11:43.011 HYPERVISOR: exec_cmd: nio create_udp udp-d1ba1bd6-b47e-4dac-8d8e-2a43f0e3bc93 10014 127.0.0.1 10015 
+Sep 09 21:11:43.265 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW5 1 1 udp-d1ba1bd6-b47e-4dac-8d8e-2a43f0e3bc93 
+Sep 09 21:11:43.266 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 21:11:43.766 HYPERVISOR: exec_cmd: nio create_udp udp-41455312-56a0-45ea-8298-19eb9d438507 10034 127.0.0.1 10035 
+Sep 09 21:11:43.804 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW5 1 2 udp-41455312-56a0-45ea-8298-19eb9d438507 
+Sep 09 21:11:43.804 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 21:14:35.512 HYPERVISOR: exec_cmd: vm set_ghost_status ESW5 2 
+Sep 09 21:14:35.513 HYPERVISOR: exec_cmd: vm set_ghost_file ESW5 C:\Users\pablo\GNS3\projects\p3\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Sep 09 21:14:35.513 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 21:14:35.514 HYPERVISOR: exec_cmd: vm set_config ESW5 configs\i4_startup-config.cfg 
+Sep 09 21:14:35.515 HYPERVISOR: exec_cmd: vm start ESW5 
+Sep 09 21:15:06.202 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 09 21:15:07.360 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 09 21:40:03.907 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 21:40:03.908 HYPERVISOR: exec_cmd: vm stop ESW5 
+Sep 09 21:40:04.083 VM: VM ESW5 shutdown.
+Sep 09 21:40:04.887 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 09 21:40:25.090 HYPERVISOR: exec_cmd: vm set_ghost_status ESW5 2 
+Sep 09 21:40:25.093 HYPERVISOR: exec_cmd: vm set_ghost_file ESW5 C:\Users\pablo\GNS3\projects\p3\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Sep 09 21:40:25.094 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 21:40:25.096 HYPERVISOR: exec_cmd: vm set_config ESW5 configs\i4_startup-config.cfg 
+Sep 09 21:40:25.097 HYPERVISOR: exec_cmd: vm start ESW5 
+Sep 09 21:40:55.836 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 09 21:40:55.879 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 09 22:03:38.041 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 22:03:38.091 HYPERVISOR: exec_cmd: vm stop ESW5 
+Sep 09 22:03:39.694 VM: VM ESW5 shutdown.
+Sep 09 22:03:39.714 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 09 22:03:52.810 HYPERVISOR: exec_cmd: vm set_ghost_status ESW5 2 
+Sep 09 22:03:52.811 HYPERVISOR: exec_cmd: vm set_ghost_file ESW5 C:\Users\pablo\GNS3\projects\p3\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Sep 09 22:03:52.840 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 22:03:52.842 HYPERVISOR: exec_cmd: vm set_config ESW5 configs\i4_startup-config.cfg 
+Sep 09 22:03:52.843 HYPERVISOR: exec_cmd: vm start ESW5 
+Sep 09 22:04:23.779 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 09 22:04:23.800 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 09 22:12:05.723 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 22:12:05.725 HYPERVISOR: exec_cmd: vm stop ESW5 
+Sep 09 22:12:05.867 VM: VM ESW5 shutdown.
+Sep 09 22:12:05.868 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 09 22:12:10.640 HYPERVISOR: exec_cmd: vm set_ghost_status ESW5 2 
+Sep 09 22:12:10.642 HYPERVISOR: exec_cmd: vm set_ghost_file ESW5 C:\Users\pablo\GNS3\projects\p3\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Sep 09 22:12:10.643 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 09 22:12:10.644 HYPERVISOR: exec_cmd: vm set_config ESW5 configs\i4_startup-config.cfg 
+Sep 09 22:12:10.644 HYPERVISOR: exec_cmd: vm start ESW5 
+Sep 09 22:12:41.083 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 09 22:12:41.172 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 10 00:38:33.030 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 10 00:38:33.107 HYPERVISOR: exec_cmd: vm stop ESW5 
+Sep 10 00:38:33.495 VM: VM ESW5 shutdown.
+Sep 10 00:38:33.496 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 10 00:38:44.146 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 10 00:38:44.146 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 10 00:38:44.722 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Sep 10 00:38:44.722 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Sep 10 00:38:44.725 HYPERVISOR: exec_cmd: vm delete ESW5 
+Sep 10 00:38:44.725 VM: VM ESW5 destroyed.
+Sep 10 00:38:44.726 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 10 00:38:44.989 HYPERVISOR: Stopped.
+Sep 10 00:38:44.989 GENERAL: reset done.
