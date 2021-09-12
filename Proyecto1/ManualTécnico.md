@@ -322,7 +322,7 @@
 ### Servidor de Informatica
 <div>
     <p align="center">
-       <img src="images/server_Informatica.JPG" width="500" alt="inicio"> 
+       <img src="images/Server_Informatica.JPG" width="500" alt="inicio"> 
     <p>
 </div>
 
