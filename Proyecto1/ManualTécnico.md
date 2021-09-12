@@ -308,7 +308,7 @@
 ### Informatica 1
 <div>
     <p align="center">
-       <img src="images/Ping-Informatica1.png" width="500" alt="inicio"> 
+       <img src="images/Ping-Informatica1.PNG" width="500" alt="inicio"> 
     <p>
 </div>
 
@@ -330,14 +330,14 @@
 ### Contabilidad 1
 <div>
     <p align="center">
-       <img src="images/Ping-Conta1.png" width="500" alt="inicio"> 
+       <img src="images/Ping-Conta1.PNG" width="500" alt="inicio"> 
     <p>
 </div>
 
 ### Contabilidad 2
 <div>
     <p align="center">
-       <img src="images/Ping-Conta2.png" width="500" alt="inicio"> 
+       <img src="images/Ping-Conta2.PNG" width="500" alt="inicio"> 
     <p>
 </div>
 
@@ -353,7 +353,7 @@
 ### Ventas 1
 <div>
     <p align="center">
-       <img src="images/Ping-Ventas1.png" width="500" alt="inicio"> 
+       <img src="images/Ping-Ventas1.PNG" width="500" alt="inicio"> 
     <p>
 </div>
 
