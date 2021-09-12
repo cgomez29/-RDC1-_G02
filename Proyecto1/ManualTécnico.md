@@ -277,11 +277,18 @@
 
 ```
     configure terminal
-    spannig-tree brief
+    spannig-tree vlan # root primary
 ```
+
+### Ejemplo
+```
+    conf t
+    spanning-tree vlan 12 root primary
+```
+
 ## verificar el Switch root 
 ```
-    show spannig-tree brief
+    show spannig-tree root
 ```
 ## Verificar STP 
 ```
@@ -296,7 +303,63 @@
 
 # Pings entre departamentos
 
-### Departamento de Recursos humanos
-### Departamento de Informatica
-### Departamento de Contabilidad
-### Departamento de Ventas
+## Departamento de Recursos humanos
+## Departamento de Informatica
+### Informatica 1
+<div>
+    <p align="center">
+       <img src="images/Ping-Informatica1.png" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Informatica 2
+<div>
+    <p align="center">
+       <img src="images/PING-Informatica2.jpg" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Servidor de Informatica
+<div>
+    <p align="center">
+       <img src="images/server_Informatica.JPG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+## Departamento de Contabilidad
+### Contabilidad 1
+<div>
+    <p align="center">
+       <img src="images/Ping-Conta1.png" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Contabilidad 2
+<div>
+    <p align="center">
+       <img src="images/Ping-Conta2.png" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Servidor de Contabilidad
+<div>
+    <p align="center">
+       <img src="images/server_Conta.JPG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+## Departamento de Ventas
+
+### Ventas 1
+<div>
+    <p align="center">
+       <img src="images/Ping-Ventas1.png" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Servidor de Ventas
+<div>
+    <p align="center">
+       <img src="images/server_Ventas.JPG" width="500" alt="inicio"> 
+    <p>
+</div>
