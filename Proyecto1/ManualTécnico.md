@@ -304,6 +304,27 @@
 # Pings entre departamentos
 
 ## Departamento de Recursos humanos
+<div>
+    <p align="center">
+       <img src="images/Ping-RRHH1.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Recursos humanos 2
+<div>
+    <p align="center">
+       <img src="images/Ping-RRHH2.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Servidor de recursos humanos
+<div>
+    <p align="center">
+       <img src="images/Server_RRHH.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+
 ## Departamento de Informatica
 ### Informatica 1
 <div>
