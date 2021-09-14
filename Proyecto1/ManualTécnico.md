@@ -384,6 +384,7 @@
        <img src="images/server_Ventas.JPG" width="500" alt="inicio"> 
     <p>
 </div>
+
 ## Departamento de RRHH
 ### RRHH 1
 <div>
