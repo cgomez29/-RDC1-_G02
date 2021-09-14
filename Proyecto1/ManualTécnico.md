@@ -384,3 +384,24 @@
        <img src="images/server_Ventas.JPG" width="500" alt="inicio"> 
     <p>
 </div>
+
+### RRHH 1
+<div>
+    <p align="center">
+       <img src="images/Ping-RRHH1.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### RRHH 2
+<div>
+    <p align="center">
+       <img src="images/Ping-RRHH2.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### Servidro de RRHH
+<div>
+    <p align="center">
+       <img src="images/Server_RRHH.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
