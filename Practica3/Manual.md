@@ -167,6 +167,43 @@ Imagen utilizada: [c3640-ik9o3s-mz124-13.bin](https://drive.google.com/drive/fol
 
 ## Comandos utilizados 
 
+## Topología 3
+### Configuración del port-channel en el switch 7
+```
+conf t
+int range f1/0 - 2 channel-group 3 mode on
+int range f1/3 - 5 channel-group 1 mode on
+int port-channel 3 switchport mode trunk switchport trunk allowed vlan 1,1002-1005
+int port-channel 1 switchport mode trunk switchport trunk allowed vlan 1,1002-1005
+end
+```
+
+### Configuración del port-channel en el switch 8
+```
+conf t
+int range f1/0 - 2 channel-group 2 mode on
+int range f1/3 - 5 channel-group 1 mode on
+int port-channel 2 switchport mode trunk switchport trunk allowed vlan 1,1002-1005
+int port-channel 1 switchport mode trunk switchport trunk allowed vlan 1,1002-1005
+end
+```
+
+### Configuración del port-channel en el switch 9
+```
+conf t
+int range f1/0 - 2 channel-group 2 mode on
+int range f1/3 - 5 channel-group 3 mode on
+int port-channel 2 switchport mode trunk switchport trunk allowed vlan 1,1002-1005
+int port-channel 3 switchport mode trunk switchport trunk allowed vlan 1,1002-1005
+end
+```
+
+### Comprobando configuraciones de los switch
+```
+show etherchannel port-channel
+show etherchannel summary
+```
+
 ## Topología 4
 ### Comandos utilizados para configurar las interfaces del router a redes
 
@@ -209,4 +246,12 @@ Imagen utilizada: [c3640-ik9o3s-mz124-13.bin](https://drive.google.com/drive/fol
 <div id='id9' />
 
 # Pings entre topologias
+## Topología 3
+### Desde PC3 hasta los router de capa 3 y las demás VPC
+![PC3 img1](images/img31.jpg)
+![PC3 img2](images/img32.jpg)
+
+### Desde PC4 hasta los router de capa 3 y las demás VPC
+![PC4 img1](images/img33.jpg)
+
 
