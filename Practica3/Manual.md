@@ -167,6 +167,45 @@ Imagen utilizada: [c3640-ik9o3s-mz124-13.bin](https://drive.google.com/drive/fol
 
 ## Comandos utilizados 
 
+## Topología 2
+### Configuración del port-channel en el switch 1
+```
+conf t
+int range f1/1 - 3
+channel-group 2 mode on
+end
+conf t
+int range f1/4 - 6
+channel-group 3 mode on
+end
+```
+
+### Configuración del port-channel en el switch 2
+```
+conf t
+int range f1/1 - 3
+channel-group 1 mode on
+end
+conf t
+int range f1/4 - 6
+channel-group 2 mode on
+end
+```
+
+### Configuración del port-channel en el switch 3
+```
+conf t
+int range f1/1 - 3
+channel-group 1 mode on
+end
+conf t
+int range f1/4 - 6
+channel-group 3 mode on
+end
+```
+
+
+
 ## Topología 3
 ### Configuración del port-channel en el switch 7
 ```
@@ -246,6 +285,38 @@ show etherchannel summary
 <div id='id9' />
 
 # Pings entre topologias
+
+## Topología 2
+### VPC 7 a todas las VPC's y Router
+
+<div>
+    <p align="center">
+       <img src="images/practica3_vpc7.jpg" width="500" alt="inicio"> 
+    <p>
+</div>
+
+
+<div>
+    <p align="center">
+       <img src="images/router 2.jpg" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### VPC 8 a todas las VPC's y al router
+
+<div>
+    <p align="center">
+       <img src="images/practica3_vpc8.jpg" width="500" alt="inicio"> 
+    <p>
+</div>
+
+
+<div>
+    <p align="center">
+       <img src="images/router.jpg" width="500" alt="inicio"> 
+    <p>
+</div>
+
 ## Topología 3
 ### Desde PC3 hasta los router de capa 3 y las demás VPC
 ![PC3 img1](images/img31.jpg)
