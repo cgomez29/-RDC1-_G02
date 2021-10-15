@@ -166,7 +166,40 @@ Imagen utilizada: [c3640-ik9o3s-mz124-13.bin](https://drive.google.com/drive/fol
 <div id='id3' />
 
 ## Comandos utilizados 
-
+## Topología 1
+### Configuración del port-channel en el switch 1
+```console
+conf t
+int range f1/1 - 3
+channel-group 2 mode on
+end
+conf t
+int range f1/4 - 6
+channel-group 3 mode on
+end
+```
+### Configuración del port-channel en el switch 2
+```console
+conf t
+int range f1/0 - 2
+channel-group 2 mode on
+end
+conf t
+int range f1/3 - 5
+channel-group 1 mode on
+end
+```
+### Configuración del port-channel en el switch 3
+```console
+conf t
+int range f1/3 - 5
+channel-group 1 mode on
+end
+conf t
+int range f1/0 - 2
+channel-group 3 mode on
+end
+```
 ## Topología 2
 ### Configuración del port-channel en el switch 1
 ```
@@ -252,7 +285,6 @@ show etherchannel summary
     ip address 192.168.21.1 255.255.255.0
     no shutdown
     exit
-
 ```
 
 
@@ -272,19 +304,69 @@ show etherchannel summary
     conf t
     ip route 192.168.23.0 255.255.255.0 172.23.0.2
     exit
-
 ```
 ### Comprobando nuestras configuraciones
 
 ```
     sh ip int br # Muestra la configuración de las interfaces
     sh ip ro  # Muestra la tabla de ruteo
-
 ```
 
 <div id='id9' />
 
 # Pings entre topologias
+
+## Topologia 1
+### VPC 3 al Router o Gateway
+<div>
+    <p align="center">
+       <img src="images/PING-T1-P1-GATEWAY.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### VPC 3 a VPC 4
+<div>
+    <p align="center">
+       <img src="images/PING-T1-P1-P2.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### VPC 3 a todas las VPC's de la Topología 2
+<div>
+    <p align="center">
+       <img src="images/PING-T1-P1-T2.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### VPC 3 a todas las VPC's de la Topología 3
+<div>
+    <p align="center">
+       <img src="images/PING-T1-P1-T3.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### VPC 4 al Router o Gateway
+<div>
+    <p align="center">
+       <img src="images/PING-T1-P2-GATEWAY.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+### VPC 4 a todas las VPC's de la Topología 2
+<div>
+    <p align="center">
+       <img src="images/PING-T1-P2-T2.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
+
+### VPC 4 a todas las VPC's de la Topología 3
+<div>
+    <p align="center">
+       <img src="images/PING-T1-P2-T3.PNG" width="500" alt="inicio"> 
+    <p>
+</div>
+
 
 ## Topología 2
 ### VPC 7 a todas las VPC's y Router
@@ -324,5 +406,3 @@ show etherchannel summary
 
 ### Desde PC4 hasta los router de capa 3 y las demás VPC
 ![PC4 img1](images/img33.jpg)
-
-
