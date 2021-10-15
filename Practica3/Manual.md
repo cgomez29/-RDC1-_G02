@@ -202,7 +202,7 @@ end
 ```
 ## Topología 2
 ### Configuración del port-channel en el switch 1
-```
+```console
 conf t
 int range f1/1 - 3
 channel-group 2 mode on
@@ -214,7 +214,7 @@ end
 ```
 
 ### Configuración del port-channel en el switch 2
-```
+```console
 conf t
 int range f1/1 - 3
 channel-group 1 mode on
@@ -226,7 +226,7 @@ end
 ```
 
 ### Configuración del port-channel en el switch 3
-```
+```console
 conf t
 int range f1/1 - 3
 channel-group 1 mode on
@@ -241,7 +241,7 @@ end
 
 ## Topología 3
 ### Configuración del port-channel en el switch 7
-```
+```console
 conf t
 int range f1/0 - 2 channel-group 3 mode on
 int range f1/3 - 5 channel-group 1 mode on
@@ -251,7 +251,7 @@ end
 ```
 
 ### Configuración del port-channel en el switch 8
-```
+```console
 conf t
 int range f1/0 - 2 channel-group 2 mode on
 int range f1/3 - 5 channel-group 1 mode on
@@ -261,7 +261,7 @@ end
 ```
 
 ### Configuración del port-channel en el switch 9
-```
+```console
 conf t
 int range f1/0 - 2 channel-group 2 mode on
 int range f1/3 - 5 channel-group 3 mode on
@@ -271,7 +271,7 @@ end
 ```
 
 ### Comprobando configuraciones de los switch
-```
+```console
 show etherchannel port-channel
 show etherchannel summary
 ```
@@ -279,7 +279,7 @@ show etherchannel summary
 ## Topología 4
 ### Comandos utilizados para configurar las interfaces del router a redes
 
-```
+```console
     conf t
     int f0/0
     ip address 192.168.21.1 255.255.255.0
@@ -290,7 +290,7 @@ show etherchannel summary
 
 ### Configuración de interfaces entre routers
 
-```
+```console
     conf t
     int s3/1
     ip address 172.23.0.1 255.255.0.0
@@ -300,14 +300,14 @@ show etherchannel summary
 
 ### Comandos utlizados para configurar las rutas estáticas
 
-```
+```console
     conf t
     ip route 192.168.23.0 255.255.255.0 172.23.0.2
     exit
 ```
 ### Comprobando nuestras configuraciones
 
-```
+```console
     sh ip int br # Muestra la configuración de las interfaces
     sh ip ro  # Muestra la tabla de ruteo
 ```
