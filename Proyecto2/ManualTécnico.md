@@ -64,21 +64,21 @@
 
 
 ## Topologia 1: Red WAN
-![topologia 1](topologia1.png)
+![topologia 1](Images/topologia1.png)
 
 ### Subnetting de la red
 
 
 
 ## Topologia 2: Oficina Central
-![topologia 2](topologia2.png)
+![topologia 2](Images/topologia2.png)
 
 ### Subnetting de la red
 
 
 
 ## Topologia 3: Centro de Datos
-![topologia 3](topologia3.png)
+![topologia 3](Images/topologia3.png)
 
 ### Subnetting de la red
 
