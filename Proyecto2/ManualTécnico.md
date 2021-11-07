@@ -9,7 +9,7 @@
 
 <div>
     <p align="center">
-       <img src="images/usac.png" width="500" alt="inicio"> 
+       <img src="Images/usac.png" width="500" alt="inicio"> 
   <p>
 </div>
 
