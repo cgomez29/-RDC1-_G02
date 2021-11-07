@@ -63,11 +63,26 @@
 *   1 GB de espacio disponible
 
 
+## Topologia 1: Red WAN
+![topologia 1](topologia1.png)
+
+### Subnetting de la red
 
 
-## Topologia 1: Área de Trabajo
-## Topologia 2: Backbone 
-## Topologia 3: Zona de Servidores
+
+## Topologia 2: Oficina Central
+![topologia 2](topologia2.png)
+
+### Subnetting de la red
+
+
+
+## Topologia 3: Centro de Datos
+![topologia 3](topologia3.png)
+
+### Subnetting de la red
+
+
 
 <br>
 <br>
