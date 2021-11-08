@@ -83,49 +83,49 @@
 | 00001010 00000010 | 00000000 00000000 |
 
 ### Número de subredes
-Se utilizarán 6 subredes, pues es el máximo de interfaces a usar en un solo router.
+Se utilizarán 6 subredes.
 
 | Subred | Nombre |
 | :----: | :----: |
-|   1    |  Int1  |
-|   2    |  Int2  |
-|   3    |  Int3  |
-|   4    |  Int3  |
-|   5    |  Int3  |
-|   6    |  Int3  |
+|   1    |   A    |
+|   2    |   B    |
+|   3    |   C    |
+|   4    |   D    |
+|   5    |   E    |
+|   6    |   F    |
 
 ### Cálculo de subnetting mediante VLSM
-#### Subred 1
+#### Subred A
 1. Identificar máscara actual: 11111111.11111111.00000000.00000000
 2. Obtener número de host: 2^3 - 2 = 6 >= 6; m = 3
 3. Obtener nueva máscara: 11111111.11111111.**11111111.11111**000 (/29)
 4. Obtener salto de red: 256 - 248 = 8
 
-#### Subred 2
+#### Subred B
 1. Identificar máscara actual: 11111111.11111111.00000000.00000000
 2. Obtener número de host: 2^3 - 2 = 6 >= 6; m = 3
 3. Obtener nueva máscara: 11111111.11111111.**11111111.11111**000 (/29)
 4. Obtener salto de red: 256 - 248 = 8
 
-#### Subred 3
+#### Subred C
 1. Identificar máscara actual: 11111111.11111111.00000000.00000000
 2. Obtener número de host: 2^3 - 2 = 6 >= 6; m = 3
 3. Obtener nueva máscara: 11111111.11111111.**11111111.11111**000 (/29)
 4. Obtener salto de red: 256 - 248 = 8
 
-#### Subred 4
+#### Subred D
 1. Identificar máscara actual: 11111111.11111111.00000000.00000000
 2. Obtener número de host: 2^3 - 2 = 6 >= 6; m = 3
 3. Obtener nueva máscara: 11111111.11111111.**11111111.11111**000 (/29)
 4. Obtener salto de red: 256 - 248 = 8
 
-#### Subred 5
+#### Subred E
 1. Identificar máscara actual: 11111111.11111111.00000000.00000000
 2. Obtener número de host: 2^3 - 2 = 6 >= 6; m = 3
 3. Obtener nueva máscara: 11111111.11111111.**11111111.11111**000 (/29)
 4. Obtener salto de red: 256 - 248 = 8
 
-#### Subred 6
+#### Subred F
 1. Identificar máscara actual: 11111111.11111111.00000000.00000000
 2. Obtener número de host: 2^3 - 2 = 6 >= 6; m = 3
 3. Obtener nueva máscara: 11111111.11111111.**11111111.11111**000 (/29)
@@ -143,21 +143,18 @@ Se utilizarán 6 subredes, pues es el máximo de interfaces a usar en un solo ro
 ### Direcciones
 | Dispositivo | Direccion IP | Prefijo IP |
 | ----------- | ------------ | :--------: |
-| R3 int1     | 10.2.0.1     |    /18     |
-| R3 int2     | 10.2.64.1    |    /18     |
-| R3 int3     | 10.2.128.1   |    /18     |
-| R4 int1     | 10.2.0.2     |    /18     |
-| R4 int2     | 10.2.64.2    |    /18     |
-| R4 int3     | 10.2.128.2   |    /18     |
-| R5 int1     | 10.2.0.3     |    /18     |
-| R5 int2     | 10.2.64.3    |    /18     |
-| R5 int3     | 10.2.128.3   |    /18     |
-| R6 int1     | 10.2.0.4     |    /18     |
-| R6 int2     | 10.2.64.4    |    /18     |
-| R6 int3     | 10.2.128.4   |    /18     |
-| R7 int1     | 10.2.0.5     |    /18     |
-| R7 int2     | 10.2.64.5    |    /18     |
-| R7 int3     | 10.2.128.5   |    /18     |
+| R3 f1/0     | 10.2.0.21    |    /29     |
+| R3 f2/0     | 10.2.0.17    |    /29     |
+| R3 f3/0     | 10.2.0.9     |    /29     |
+| R4 f0/0     | 10.2.0.2     |    /29     |
+| R4 f1/0     | 10.2.0.10    |    /29     |
+| R5 f0/0     | 10.2.0.3     |    /29     |
+| R5 f1/0     | 10.2.0.11    |    /29     |
+| R5 f2/0     | 10.2.0.33    |    /29     |
+| R6 f0/0     | 10.2.0.4     |    /29     |
+| R6 f1/0     | 10.2.0.25    |    /29     |
+| R7 f0/0     | 10.2.0.12    |    /29     |
+| R7 f1/0     | 10.2.0.41    |    /29     |
 
 ## Topologia 2: Oficina Central
 ![topologia 2](Images/topologia2.png)
@@ -306,10 +303,213 @@ Se utilizará una subred por cada departamento, y una subred para los administra
 ## Comandos utilizados
 
 ## Topologia 1: Red WAN
-cuerpo
+### Configuración de interfaces (R3)
+```
+conf t
+
+int f0/0
+ip address 10.2.0.1 255.255.255.248
+no shutdown
+exit
+
+int f1/0
+ip address 10.2.0.9 255.255.255.248
+no shutdown
+exit
+
+int f2/0
+ip address 10.2.0.17 255.255.255.248
+no shutdown
+exit
+```
+
+### Configuración de interfaces (R4)
+```
+conf t
+
+int f0/0
+ip address 10.2.0.2 255.255.255.248
+no shutdown
+exit
+
+int f1/0
+ip address 10.2.0.10 255.255.255.248
+no shutdown
+exit
+```
+
+### Configuración de interfaces (R5)
+```
+conf t
+
+int f0/0
+ip address 10.2.0.3 255.255.255.248
+no shutdown
+exit
+
+int f1/0
+ip address 10.2.0.11 255.255.255.248
+no shutdown
+
+exit
+int f2/0
+ip address 10.2.0.33 255.255.255.248
+no shutdown
+exit
+```
+
+### Configuración de interfaces (R6)
+```
+conf t
+
+int f0/0
+ip address 10.2.0.4 255.255.255.248
+no shutdown
+exit
+
+int f1/0
+ip address 10.2.0.25 255.255.255.248
+no shutdown
+exit
+```
+
+### Configuración de interfaces (R7)
+```
+conf t
+
+int f0/0
+ip address 10.2.0.12 255.255.255.248
+no shutdown
+exit
+
+int f1/0
+ip address 10.2.0.41 255.255.255.248
+no shutdown
+exit
+```
+
+### Configuración de RIP (R3)
+```
+conf t
+
+router rip
+version 2
+network 10.2.0.8
+network 10.2.0.16
+network 10.2.0.0
+end
+
+sh ip route
+```
+
+### Configuración de RIP (R4)
+```
+conf t
+
+router rip
+version 2
+network 10.2.0.0
+network 10.2.0.8
+end
+
+sh ip route
+```
+
+### Configuración de RIP (R5)
+```
+conf t
+
+router rip
+version 2
+network 10.2.0.32
+network 10.2.0.0
+network 10.2.0.8
+end
+
+sh ip route
+```
+
+### Configuración de RIP (R6)
+```
+conf t
+
+router rip
+version 2
+network 10.2.0.0
+network 10.2.0.24
+end
+
+sh ip route
+```
+
+### Configuración de RIP (R7)
+```
+conf t
+
+router rip
+version 2
+network 10.2.0.8
+network 10.2.0.40
+end
+
+sh ip route
+```
+
+### Configuración de HSRP Activo (R7)
+```
+conf t
+
+int f1/0
+standby 1 10.2.0.38
+standby 1 priority 150 
+standby 1 preempt
+end
+
+sh standby
+sh standby brief
+```
+
+### Configuración de HSRP Standby (R5)
+```
+conf t
+
+int f2/0
+standby 1 10.2.0.38
+end
+
+sh standby
+sh standby brief
+```
+
+### Configuración de GLBP Activo (R3)
+```
+conf t
+
+int f2/0
+glbp 1 ip 10.2.0.22
+glbp 1 preempt
+glbp 1 priority 150
+glbp 1 load-balancing round-robin
+end
+
+sh glbp
+sh glbp brief
+```
+
+### Configuración de GLBP Standby (R6)
+```
+conf t
+
+int f1/0
+glbp 1 ip 10.2.0.30
+glbp 1 load-balancing round-robin
+end
+
+sh glbp
+sh glbp brief
+```
 
 ## Topologia 2: Oficina Central
-
 ### Creación de VTP (ESW4)
 ```
 conf t
