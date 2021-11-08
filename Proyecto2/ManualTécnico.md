@@ -905,12 +905,34 @@ end
 
 ## PING
 ## Topologia 1: Red WAN
-cuerpo
 
 ## Topologia 2: Oficina Central
-cuerpo
+
+Contabilidad 1
+![topologia 2](Images/[PING]CONTABILIDAD1-4.PNG)
+![topologia 2](Images/[PING]CONTABILIDAD1-5.PNG)
+
+Informatica
+![topologia 2](Images/[PING]INFORMATICA-5.PNG)
+![topologia 2](Images/[PING]INFORMATICA-35.PNG)
+
+Ventas
+![topologia 2](Images/[PING]VENTAS.PNG)
+
 
 ## Topologia 3: Centro de Datos
-cuerpo
+Admin 1
+![topologia 2](Images/admin1.jpg)
+Admin 2
+![topologia 2](Images/admin1.jpg)
+Contabilidad
+![topologia 2](Images/conta.tp3.jpg)
+BDD
+![topologia 2](Images/db-tp3.jpg)
+Recursos Humanos
+![topologia 2](Images/rrhh.jpg)
+Pagina Web
+![topologia 2](Images/web-tp3.jpg)
+
 
 <div id='id3' />
