@@ -903,4 +903,14 @@ network 192.168.52.128
 end
 ```
 
+## PING
+## Topologia 1: Red WAN
+cuerpo
+
+## Topologia 2: Oficina Central
+cuerpo
+
+## Topologia 3: Centro de Datos
+cuerpo
+
 <div id='id3' />
