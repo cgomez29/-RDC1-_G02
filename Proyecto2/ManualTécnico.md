@@ -459,8 +459,8 @@ sh ip route
 ```
 conf t
 
-int f1/0
-standby 1 10.2.0.38
+int f0/0
+standby 1 ip 10.2.0.14
 standby 1 priority 150 
 standby 1 preempt
 end
@@ -473,8 +473,8 @@ sh standby brief
 ```
 conf t
 
-int f2/0
-standby 1 10.2.0.38
+int f1/0
+standby 1 ip 10.2.0.14
 end
 
 sh standby
@@ -485,11 +485,11 @@ sh standby brief
 ```
 conf t
 
-int f2/0
-glbp 1 ip 10.2.0.22
+int f0/0
+glbp 1 ip 10.2.0.6
 glbp 1 preempt
 glbp 1 priority 150
-glbp 1 load-balancing round-robin
+glbp 1 load-balancing round-robin 
 end
 
 sh glbp
@@ -500,8 +500,8 @@ sh glbp brief
 ```
 conf t
 
-int f1/0
-glbp 1 ip 10.2.0.30
+int f0/0
+glbp 1 ip 10.2.0.6
 glbp 1 load-balancing round-robin
 end
 
@@ -731,10 +731,10 @@ encapsulation dot1Q 30
 ip address 192.168.42.1 255.255.255.128
 exit
 
-18. int f1/0.40
-19. encapsulation dot1Q 40
-20. ip address 192.168.42.129 255.255.255.192
-21. exit
+int f1/0.40
+encapsulation dot1Q 40
+ip address 192.168.42.129 255.255.255.192
+exit
 
 sh ip int br
 sh int f0/0.10
