@@ -908,30 +908,45 @@ end
 
 ## Topologia 2: Oficina Central
 
-Contabilidad 1
+#### Contabilidad 1
+
 ![topologia 2](Images/[PING]CONTABILIDAD1-4.PNG)
 ![topologia 2](Images/[PING]CONTABILIDAD1-5.PNG)
 
-Informatica
+#### Informatica
+
 ![topologia 2](Images/[PING]INFORMATICA-5.PNG)
 ![topologia 2](Images/[PING]INFORMATICA-35.PNG)
 
-Ventas
+#### Ventas
+
 ![topologia 2](Images/[PING]VENTAS.PNG)
 
 
 ## Topologia 3: Centro de Datos
-Admin 1
+
+#### Admin 1
+
 ![topologia 2](Images/admin1.jpg)
-Admin 2
+
+#### Admin 2
+
 ![topologia 2](Images/admin1.jpg)
-Contabilidad
+
+#### Contabilidad
+
 ![topologia 2](Images/conta.tp3.jpg)
-BDD
+
+#### BDD
+
 ![topologia 2](Images/db-tp3.jpg)
-Recursos Humanos
+
+#### Recursos Humanos
+
 ![topologia 2](Images/rrhh.jpg)
-Pagina Web
+
+#### Pagina Web
+
 ![topologia 2](Images/web-tp3.jpg)
 
 
